@@ -9,23 +9,30 @@ const bodyparser = require("body-parser")
 const PORT = process.env.PORT || 1000;
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(express.static("public"));
-app.set("veiw engine", "ejs");
+app.set("view engine", "ejs");
+
+app.get("/", function(req, res){
+    res.render("landing.ejs");
+});
+
 
 app.get('/landing', (req, res, next) => {
     res.render("landing.ejs")
 });
 
 
-
-
-
-
-
-app.use((req, res, next) => {
-    res.status(200).json ({
-        message: "hello its working"
-    });
+app.get("/", function(req, res){
+    res.render("landing.ejs");
 });
+
+
+
+
+
+
+
+
+
 
 app.use((req, res, next) => {
     const error = new error ("not available")
