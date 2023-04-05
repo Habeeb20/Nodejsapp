@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignity</title>
+  
+    <style>
+
+
+        body {
+            
+            margin: 0;
+            padding: 0;
+            background-color: gainsboro;
+        }
+
+        .container {
+            background-color:whitesmoke;
+            overflow: hidden;
+            margin: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 10px;
+
+
+        }
+
+        .container a {
+            display: inline-block;
+            padding: 10px;
+            margin-right:50px;
+            
+
+        }
+
+        .right a {
+            float: left;
+            margin-left: 200px;
+            color: purple;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: large;
+            font-weight: 100;
+        }
+
+        a {
+            float: right;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .container a:hover {
+            color: rgb(65, 105, 225);
+        }
+
+        .management {
+            background-color: rgb(65, 105, 225);
+            margin-top: 10px;
+            margin: auto;
+            height: 120px;
+            overflow: hidden;
+        }
+
+        .management h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .management h5 {
+            color: white;
+            text-align: center;
+            
+        }
+
+        .All  {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+    
+
+        .All img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .first h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .first img:hover, :focus {
+            cursor: pointer;
+            transform: translate(2);
+            transition: ease-in-out;
+            font-size: 20px;
+        
+
+        }
+
+        .first:hover, :focus{
+            cursor: pointer;
+        
+            color:  rgb(65, 105, 225);
+        
+
+        }
+
+        .second h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .second:hover, :focus{
+            cursor: pointer;
+            color:  rgb(65, 105, 225);
+        
+
+        }
+        .third h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .third:hover, :focus{
+            cursor: pointer;
+            color:  rgb(65, 105, 225);
+        
+
+        }
+
+        .fourth h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .fourth:hover, :focus{
+            cursor: pointer;
+            color:  rgb(65, 105, 225);
+        
+
+        }
+
+        .fifth h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .fifth:hover, :focus{
+            cursor: pointer;
+      
+            color:  rgb(65, 105, 225);
+        }
+
+        .text {
+            padding-top: 90px;
+            text-align: center;
+            
+        }
+
+        .dif {
+            color:green;
+        }
+        .anothertext {
+            text-align: center;
+            padding-top: 90px;
+
+        }
+
+        .cas {
+            color: blue;
+        }
+
+        .All2  {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .All2 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 90px;
+            
+        }
+
+
+        
+        .All2 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .first1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+        .second1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .third1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .fourth1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .fifth1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .All3  {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .All3 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 180px;
+            
+        }
+
+        
+        .All3 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+            margin-left: 100px;
+        }
+
+        .fifth12 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .fifth22 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .fifth32 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .another {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        .another button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 90px;
+            
+        }
+
+        .another img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .another1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+        .another2 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .another3 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .another4 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .another5 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        
+        .All3  {
+            padding-top: 120px;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .All3 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 180px;
+            
+        }
+
+        
+        .All3 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+            margin-left: 100px;
+        }
+
+        .fifth12 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .fifth22 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .fifth32 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        
+        .anoth  {
+            padding-top: 120px;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .anoth button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 180px;
+            
+        }
+
+        
+        .anoth img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+            margin-left: 100px;
+        }
+
+        .anoth5 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .anoth6 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .anoth7 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .wristtext {
+            text-align: center;
+            padding-top: 90px;
+
+        }
+
+        .watch {
+            color: chocolate;
+        }
+
+        .look {
+            color: blue;
+        }
+
+        .watchdisplay {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        .watchdisplay button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 70px;
+            
+        }
+
+        .watchdisplay img {
+            width: 150px;
+            height: 200px;
+            padding: 13px ;
+        }
+
+        .watch1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+        .watch2 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .watch3 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .watch4 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .watch5 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .watch6 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .displaywatch {
+            display: inline-flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        .displaywatch button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 110px;
+            
+        }
+
+        .displaywatch img {
+            width: 150px;
+            height: 200px;
+            padding: 20px ;
+        }
+
+        .wat6 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat7 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat8 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat9 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+
+
+
+        
+        .diswatch {
+            display: inline-flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        .diswatch button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 90px;
+            
+        }
+
+        .diswatch img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .wat1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat2 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat3 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat4 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .wat5 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .unisextext {
+            text-align: center;
+            padding-top: 90px;
+
+        }
+
+        .uni {
+            color: darkblue;
+        }
+
+        .uniwatch  {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .uniwatch button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 180px;
+            
+        }
+
+        
+        .uniwatch img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+            margin-left: 100px;
+        }
+
+        .watch0 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        
+        .watch1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+
+        
+        .watch2 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        
+        
+        .clothhead2  {
+            padding-top: 120px;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .clothhead2 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 180px;
+            
+        }
+
+        
+        .clothhead2 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+            margin-left: 100px;
+        }
+
+        .cloth6 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .cloth7 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+        .cloth8 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+            margin-left: 90px;
+        }
+
+           
+        .clothhead1  {
+            padding-top: 120px;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .clothhead1 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 90px;
+            
+        }
+
+        .clothhead1 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .cloth1 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+        .cloth2 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth3 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth4 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth5 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+         
+        .clothhead3 {
+            display: inline-flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        .clothhead3 button {
+            text-align: center;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 90px;
+            
+        }
+
+        .clothhead3 img {
+            width: 188px;
+            height: 200px;
+            padding: 15px ;
+        }
+
+        .cloth9 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth10 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth11 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth12 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .cloth13 h4 {
+            margin-top: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width:850px) {
+
+            
+            .All img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 1%;
+                width: 60px;
+            }
+
+            .All2 h4 {
+                margin-left: 5px;
+            }
+
+            .All2 button {
+                margin-left: 25px;
+            }
+
+
+            .All2 img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 60px;
+            }
+
+            .All3 h4 {
+                margin-left: 5px;
+            }
+
+            .All3 button {
+                margin-left: 55px;
+            }
+
+
+            .All3 img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 35px;
+                width: 90px;
+            }
+
+            .another h4 {
+                margin-left: 5px;
+            }
+
+            .another button {
+                margin-left: 25px;
+            }
+
+
+            .another img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 60px;
+            }
+
+          
+
+
+            .anoth h4 {
+                margin-left: 5px;
+            }
+
+            .anoth button {
+                margin-left: 55px;
+            }
+
+
+            .anoth img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 35px;
+                width: 90px;
+            }
+
+            .watchdisplay h4 {
+                margin-left: 5px;
+            }
+
+            .watchdisplay button {
+                margin-left: 20px;
+            }
+
+
+            .watchdisplay img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 50px;
+            }
+
+            .displaywatch h4 {
+                margin-left: 7px;
+            }
+
+            .displaywatch button {
+                margin-left: 35px;
+            }
+
+
+            .displaywatch img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.1px;
+                width: 70px;
+                margin-right: 1px;
+            }
+            .diswatch h4 {
+                margin-left: 5px;
+            }
+
+            .diswatch button {
+                margin-left: 35px;
+            }
+
+
+            .diswatch img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 40px;
+            }
+
+            .diswatch img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 5px;
+                width: 90px;
+
+            }
+
+
+          
+
+            .uniwatch h4 {
+                margin-left: 5px;
+            }
+
+            .uniwatch button {
+                margin-left: 55px;
+            }
+
+
+            .uniwatch img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 35px;
+                width: 90px;
+            }
+
+            
+            .clothhead1 h4 {
+                margin-left: 5px;
+            }
+
+            .clothhead1 button {
+                margin-left: 25px;
+            }
+
+
+            .clothhead1 img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 60px;
+            }
+
+          
+
+
+            .clothhead3 h4 {
+                margin-left: 5px;
+            }
+
+            .clothhead3 button {
+                margin-left: 35px;
+            }
+
+
+            .clothhead3 img {
+                display: inline-flex;
+                align-content: center;
+                margin-left: 0.5px;
+                width: 40px;
+            }
+
+            .clothhead3 img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 5px;
+                width: 90px;
+
+            }
+
+            .clothhead2 h4 {
+                margin-left: 5px;
+            }
+
+            .clothhead2 button {
+                margin-left: 55px;
+            }
+
+
+            .clothhead2 img {
+                display: inline-flex;
+                align-content: center;
+                padding-left: 5px;
+                margin-left: 35px;
+                width: 90px;
+            }
+
+
+        
+            h1 {
+                width: 70%;
+                text-align: center;
+                margin-left: 35px;
+            }
+
+            h5 {
+                width: 70px;
+                align-content: center;
+                
+            }
+            .management {
+                height:170px ;
+                width: 500px;
+            }
+            .management h5 {
+                width: 350px;
+                text-align: center;
+                margin-left: 35px;
+                
+            }
+
+            .container  {
+                width: 420px;
+            }
+        }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        
+    </style>
+   
+</head>
+     
+<body>
+    <div class="container">
+        <div class="right">
+            <a href="#">HB Wears</a>
+            <a href="/blog.ejs">A blog</a>
+        </div>
+        <a href="/contactuspage">Contact Us</a>
+        <a href="/Aboutus">About Us</a>
+        <a href="/logout">logout</a>
+        
+    </div>
+
+   
+    <div class="management">
+        <h1>Your look is our concern!</h1>
+        <h5>HB Wears deals with different kind of wears,shoes and <br> wristwatches</h5>
+    </div>
+
+    <div class="All">
+        <div class="first">
+            <img src="pic 4.jpg">
+            <h4>Nike air <br> size 44</h4>
+        </div>
+        <div class="second">
+            <img src="pic 5.jpg">
+            <h4>Adiddas(the stars) <br> size 39</h4>
+        </div>
+       <div class="third">
+            <img src="pic 6.jpg">
+            <h4>Nike air <br> size 42</h4>
+       </div>
+
+       <div class="fourth">
+            <img src="pic 7.jpg">
+            <h4>Timberland <br> size 42</h4>
+        </div>
+
+        <div class="fifth">
+            <img src="pic 9.png">
+            <h4>Nike air <br> size 42</h4>
+       </div>
+    </div>
+
+    <div class="text">
+        <h4>There are also different kinds of <span class="dif">palm slippers</span> that can fit in to any kind of your <br>outfits. <span class="dif">The palm slippers</span> 
+         are quality types and they are also <span class="dif">carton palms</span>. you <br> can actually order for choice and size by clicking the order button</h4>
+
+    </div>
+
+    <div class="All2">
+        <div class="first1">
+            <img src="pic 11.png">
+            <h4>Naked Wolfe <br> size 44</h4>
+            <button><a href="/product1">Order</a></button>
+           
+        </div>
+        <div class="second1">
+            <img src="pic 12.png">
+            <h4>Loius Vuitton <br> size 41</h4>
+            <button><a href="/product2">Order</a></button>
+        </div>
+       <div class="third1">
+            <img src="pic 14.png">
+            <h4>Dior<br> size 40</h4>
+            <button><a href="/product3">Order</a></button>
+       </div>
+
+       <div class="fourth1">
+            <img src="pic 15.png">
+            <h4>Loius Vuitton<br> size 44</h4>
+            <button><a href="/product4">Order</a></button>
+        </div>
+
+        <div class="fifth1">
+            <img src="pic 16.png">
+            <h4>Bottega Veneta <br> size 42</h4>
+            <button><a href="/product5">Order</a></button>
+       </div>
+    </div>
+
+    <div class="All3">
+        <div class="fifth12">
+            <img src="pic 19.png">
+            <h4>Bottega Veneta <br> size 40</h4>
+            <button><a href="/product6">Order</a></button>
+    
+        </div>
+
+        
+        <div class="fifth22">
+            <img src="pic 31.png">
+            <h4>Sanuti<br> size 42</h4>
+            <button><a href="/product7">Order</a></button>
+        </div>
+
+    
+        <div class="fifth32">
+            <img src="pic 32.png">
+            <h4>Sanuti <br> size 42</h4>
+            <button><a href="/product8">Order</a></button>
+        </div>
+    </div>
+    <div class="anothertext">
+        <h4>There are also some nice <span class="cas">sneakers</span>that can fit in your casual wears <br>
+        they are of different designers and size, both mascline and feminine. you can also<br> order for ur <span class="cas">sneakers</span>
+        by clicking on the order button</h4>
+
+    </div>
+
+    <div class="another">
+        <div class="another1">
+            <img src="pic 17.png">
+            <h4>Nike air <br> size 44</h4>
+            <button><a href="/product9">Order</a></button>
+        </div>
+        <div class="another2">
+            <img src="pic 21.png">
+            <h4>Adiddas(the stars) <br> size 39</h4>
+            <button><a href="/product10">Order</a></button>
+        </div>
+       <div class="another3">
+            <img src="pic 22.png">
+            <h4>Nike air <br> size 42</h4>
+            <button><a href="/product12">Order</a></button>
+       </div>
+
+       <div class="another4">
+            <img src="pic 23.png">
+            <h4>Nike Jordan <br> size 42</h4>
+            <button><a href="/product13">Order</a></button>
+        </div>
+
+        <div class="another5">
+            <img src="pic 24.png">
+            <h4>Nike Jordan <br> size 42</h4>
+            <button><a href="/product14">Order</a></button>
+       </div>
+    </div>
+
+    <div class="anoth">
+        <div class="anoth5">
+            <img src="pic 25.png">
+            <h4>Adiddas <br> size 42</h4>
+            <button><a href="/product15">Order</a></button>
+       </div>
+       <div class="anoth6">
+            <img src="pic 26.png">
+            <h4>Nike Jordan <br> size 42</h4>
+            <button><a href="/product16">Order</a></button>
+        </div>
+        <div class="anoth7">
+            <img src="pic 27.png">
+            <h4>Nike <br> size 42</h4>
+            <button><a href="/product17">Order</a></button>
+        </div>
+
+    </div>
+
+    <div class="wristtext">
+        <h4>HB Wears also deals with the sales of beautiful <span class="watch"> wristwatches</span> to compliment your outfit <br> and will make you 
+            look so irresitible because <span class="look">your look is our concern</span>. let's also be your <br>plug when it comes to <span class="watch"> wristwatches...</span>
+
+        </h4>
+    </div>
+
+    <div class="watchdisplay">
+        <div class="watch1">
+            <img src="chain 1.jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product18">Order</a></button>
+        </div>
+
+        <div class="watch2">
+            <img src="chain 2.png">
+            <h4>Rolex</h4>
+            <button><a href="/product19">Order</a></button>
+        </div>
+
+        <div class="watch3">
+            <img src="chain 3.png">
+            <h4>Armani</h4>
+            <button><a href="/product22">Order</a></button>
+        </div>
+
+        <div class="watch4">
+            <img src="chain 7.png">
+            <h4>G-shock</h4>
+            <button><a href="/product21">Order</a></button>
+        </div>
+
+        <div class="watch5">
+            <img src="chain3.png">
+            <h4>Rolex</h4>
+            <button><a href="/product20">Order</a></button>
+        </div>
+
+        <div class="watch6">
+            <img src="chain4.png">
+            <h4>Rolex</h4>
+            <button><a href="/product23">Order</a></button>
+        </div>
+
+    </div>
+
+    <div class="displaywatch">
+        <div class="wat6">
+            <img src="wrist 4.jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product24">Order</a></button>
+        </div>
+
+        <div class="wat7">
+            <img src="wrist 11.jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product25">Order</a></button>
+        </div>
+
+        <div class="wat8">
+            <img src="wrist 12.jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product26">Order</a></button>
+        </div>
+
+        <div class="wat9">
+            <img src="wrist 18.png">
+            <h4>Armani</h4>
+            <button><a href="/product27">Order</a></button>
+        </div>
+
+    </div>
+
+    <div class="diswatch">
+        <div class="wat1">
+            <img src="wrist 1.jpg">
+            <h4>Calvin klien</h4>
+            <button><a href="/product28">Order</a></button>
+        </div>
+
+        <div class="wat2">
+            <img src="wrist 5.jpg">
+            <h4>Calvin klien</h4>
+            <button><a href="/product29">Order</a></button>
+        </div>
+
+        <div class="wat3">
+            <img src="wrist 14.png">
+            <h4>Switch</h4>
+            <button><a href="/product30">Order</a></button>
+        </div>
+
+        <div class="wat4">
+            <img src="wrist16.png">
+            <h4>Switch</h4>
+            <button><a href="/product31">Order</a></button>
+        </div>
+
+       
+    </div>
+
+    <div class="unisextext">
+        <h4>we also deal with <span class="uni">unisex wristwatches</span> for couples that prefers<br>
+        to go stunning using the same <span class="uni">watches</span> </h4>
+
+    </div>
+
+    <div class="uniwatch">
+        
+        <div class="watch0">
+            <img src="wrist 3.jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product32">Order</a></button>
+        </div>
+
+        
+        <div class="watch1">
+            <img src="wrist 2.jpg">
+            <h4>Switch</h4>
+            <button><a href="/product33">Order</a></button>
+        </div>
+
+        
+        <div class="watch2">
+            <img src="wrist13.jpg">
+            <h4>Switch</h4>
+            <button><a href="/product34">Order</a></button>
+        </div>
+
+    </div>
+
+    <div class="clothhead1">
+        <div class="cloth1">
+            <img src="cloth 4 (4).png">
+            <h4>Hood </h4>
+            <button><a href="/product43">Order</a></button>
+        </div>
+        <div class="cloth2">
+            <img src="cloth 4 (5).jpg">
+            <h4>Burberry</h4>
+            <button><a href="/product55">Order</a></button>
+        </div>
+       <div class="cloth3">
+            <img src="cloth 4 (5).png">
+            <h4>Gucci jacket </h4>
+            <button><a href="/product56">Order</a></button>
+       </div>
+
+       <div class="cloth4">
+            <img src="cloth 4 (6).png">
+            <h4>knicker </h4>
+            <button><a href="/product57">Order</a></button>
+        </div>
+
+        <div class="cloth5">
+            <img src="cloth 4 (6).jpg">
+            <h4>Diesal</h4>
+            <button><a href="/product58">Order</a></button>
+       </div>
+    </div>
+
+    <div class="clothhead2">
+        <div class="cloth6">
+            <img src="cloth 4 (7).jpg">
+            <h4>Burberry </h4>
+            <button><a href="/product48">Order</a></button>
+       </div>
+       <div class="cloth7">
+            <img src="cloth 4 (8).jpg">
+            <h4>Gucci</h4>
+            <button><a href="/product49">Order</a></button>
+        </div>
+        <div class="cloth8">
+            <img src="cloth 4 (9).jpg">
+            <h4>Sanuti </h4>
+            <button><a href="/product50">Order</a></button>
+        </div>
+
+    </div>
+
+    <div class="clothhead3">
+        <div class="cloth9">
+            <img src="cloth 4 (11).jpg">
+            <h4>polo shirts</h4>
+            <button><a href="/product51">Order</a></button>
+        </div>
+
+        <div class="cloth10">
+            <img src="cloth 4 (18).jpg">
+            <h4>roundnecks</h4>
+            <button><a href="/product52">Order</a></button>
+        </div>
+
+        <div class="cloth11">
+            <img src="cloth 4 (13).jpg">
+            <h4>jackets</h4>
+            <button><a href="/product53">Order</a></button>
+        </div>
+
+        <div class="cloth12">
+            <img src="cloth 4 (15).jpg">
+            <h4>caps</h4>
+            <button><a href="/product54">Order</a></button>
+        </div>
+
+       
+    </div>
+
+       
+
+      
+  
+   
+</body>
+<script src="display.js"></script>
+<script type="text/javasript"  src="jquery-3.6.0.min(1).js"></script>
+</html>
+

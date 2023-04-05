@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignity</title>
+</head>
+<style>
+    @media screen and (max-width: 600px) {
+        body {
+            margin:200px;
+            padding: 200px;
+        }
+
+        .inbox {
+            margin: 50px, 50px, 50px, 50px
+        }
+        
+    }
+
+  
+        body {
+        padding: 0%;
+        margin: 0%;
+        background-image:url(picturee.png);
+        background-size:cover;
+        background-position: center;
+       
+    }
+
+    @keyframes labels {
+        from{
+            opacity: 0;
+        }
+        
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes inbox {
+        from{
+            opacity: 0;
+        }
+        
+        to {
+            opacity: 1;
+        }
+    }
+
+   
+
+   
+
+    .inbox {
+        animation: inbox 9s;
+        animation-duration: 10s;
+        position: relative;
+        border: 2px solid white;
+        background-color:transparent;
+        height: 350px;
+        width: 250px;
+        padding: 3% 3% 20px 0px;
+        margin: 50px 400px;
+        margin-top: 40px;
+        margin-bottom: 3px;
+        padding-bottom: 3%;
+        
+    }
+
+    .inbox ::before {
+        content: "";
+        position: absolute;
+        transform: scaleX(0.5);
+        transform-origin: left;
+    }
+
+    .inbox:hover {
+        color: blueviolet;
+        border:2px solid chartreuse;
+    }
+    h1 {
+        
+        color: black;
+        text-align: center;
+    }
+
+    button {
+        width: 80px;
+        border-radius: 10px;
+        background-color: lightgreen;
+        color: black;
+        margin: 40px 70px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        width: 100px;
+       
+    }
+
+    
+    @media only screen and (max-width: 700px){
+
+        body {
+        padding: 0%;
+        margin: 0%;
+        background-image:url(picturee.png);
+        background-size:cover;
+        background-position: center;
+       
+    }
+        .inbox {
+            margin: 53px;
+            position: absolute;
+        }
+
+        .inbox:hover {
+        border:2px solid chartreuse;
+    }
+
+    
+        
+    }
+  
+    
+
+    
+
+    
+
+</style>
+<body>
+    <div class="inbox">
+        <a href="/login"><button>Login</button></a>
+        <h1>you have successfully logged out....Thank you</h1>
+
+    </div>
+
+
+</body>
+<script src="logout.js"></script>
+</html>

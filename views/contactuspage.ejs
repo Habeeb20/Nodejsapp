@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignity</title>
+</head>
+<style>
+    body {
+        background-color: azure;
+    }
+
+  
+    .display {
+        width: 300px;
+        margin-top: 2px;
+        padding-top: 2px;
+        margin-left: 350px;
+        
+        
+       
+    }
+    .one {
+        padding-right: 10px;
+        font-size: large;
+        text-align: center;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+ 
+
+    .three {
+        margin-top: 2px;
+        padding-top: 2px;
+        padding-right: 20px;
+        font-size: large;
+        text-align: center;
+        
+        
+    }
+
+
+    .All {
+        
+        margin-left: 350px;
+    }
+  
+   
+    .img {
+        border: 2px solid orange;
+        background-color: orange;
+        width: 300px;
+        height: 120px;
+        padding-top: 10px;
+        
+    }
+
+    .img h1 {
+        color: white;
+        text-align: center;
+        margin-top: 35px;
+
+    }
+
+    hr {
+            background-color: aliceblue;
+            height:5px;
+            border-radius: 14px;
+            width: 300px;
+            margin-top: 10px;
+            margin-left: 1px;
+       
+        }
+
+
+    .text1 {
+        border:2px dotted orange;
+        background-color: azure;
+        margin-top: 5px;
+        width: 300px;
+        height: 100px;
+        
+    }
+
+    .text1 h6 {
+        text-align: center;
+    }
+
+    .contactus1 img {
+        width: 300px;
+        height: 100px;
+
+    }
+
+    .chat {
+        border: 2px solid white;
+        height: 40px;
+        width:300px ;
+        border: none;
+    }
+
+    .chat h3 {
+        text-align: center;
+        font-size: medium;
+        color:  black
+    }
+
+    .text2 {
+        border:2px dotted orange;
+        background-color: azure;
+        margin-top: 5px;
+        width: 300px;
+        height: 50px;
+        
+    }
+
+    .text2 h6 {
+        padding-top: 1px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .help {
+        border: 2px dotted rgba(218, 187, 16, 0.911);
+        width: 300px;
+        margin-top: 10px;
+        height: 700px;
+    }
+
+    .help img {
+        width: 290px;
+        height: 100px;
+        margin-top: 5px;
+        padding-left: 5px;
+
+    }
+
+    .help button {
+        border: 2px solid gold;
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 280px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-weight: bolder;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .help h5 {
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: smaller;
+        font-family: monospace;
+        margin-top:10px;
+        color: darkslategray;
+        margin-bottom: 2px;
+    }
+
+    .help .service {
+        background-color: white;
+        width: 275px;
+    }
+    .service {
+        background-color: white;
+        margin-left: 10px;
+        width: 120px;
+       
+        
+    }
+    option {
+        
+        background-color: white;
+    }
+
+    .service select {
+        width: 275px;
+        padding-left: 3px;
+        margin-left: 5px;
+        background-color: white;
+        font-size: smaller;
+        font-weight: 100px;
+        border: none;
+        margin-top: 2px;
+        height: 40px;
+    }
+
+ 
+
+    .setting h5 {
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: smaller;
+        font-family: monospace;
+        margin-top:10px;
+        color: darkslategray;
+        margin-bottom: 2px;
+    }
+
+    .help .push {
+        background-color: white;
+        width: 275px;
+    }
+
+    .push select {
+        width: 275px;
+        padding-left: 3px;
+        margin-left: 5px;
+        background-color: white;
+        font-size: smaller;
+        font-weight: 100px;
+        border: none;
+        margin-top: 2px;
+        height: 40px;
+    }
+
+    .push {
+        background-color: white;
+        margin-left: 10px;
+        width: 120px;
+       
+        
+    }
+    option {
+        text-transform: capitalize;
+        background-color: white;
+    }
+
+    .info h5 {
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: smaller;
+        font-family: monospace;
+        margin-top:10px;
+        color: darkslategray;
+        margin-bottom: 2px;
+    }
+
+    .help .app {
+        background-color: white;
+        width: 275px;
+    }
+
+    .app h4 {
+        width: 275px;
+        padding-left: 3px;
+        margin-left: 5px;
+        background-color: white;
+        font-size: 13px;
+        font-weight: lighter;
+        border: none;
+        margin-top: 2px;
+        height: 40px;
+        padding-top: 9px;
+    }
+
+    .app {
+        background-color: white;
+        margin-left: 10px;
+        width: 120px;  
+    }
+
+    .help .app {
+        background-color: white;
+        width: 275px;
+    }
+
+
+    .image img {
+        width: 290px;
+        height: 100px;
+        margin-top: 25px;
+        padding-left: 5px;
+        
+
+    }
+
+     .call {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin :2px;
+        background-color: aliceblue;
+       
+        
+        
+    }
+
+    .call h3 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .call h6 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding-bottom: 2px;
+    }
+
+    .call1 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin :2px;
+        margin-top: 10px;
+        background-color: aliceblue;
+       
+        
+        
+    }
+
+ 
+    .call1 h6 {
+        text-align: center;
+        font-size: x-small;
+        color:  black;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding-bottom: 2px;
+    }
+
+
+
+    .start1 button {
+        border: 2px solid gold;
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 280px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-weight: bolder;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .call2 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin :2px;
+        background-color: aliceblue;
+       
+        
+        
+    }
+
+    .call2 h3 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .call2 h6 {
+        text-align: center;
+        font-size: medium;
+        color:  black;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding-bottom: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 850px){
+        .All {
+            margin-left: 2px;
+            width: 460px;
+        }
+        .display {
+            margin-left: 2px;
+            width: 460px;
+        }
+
+        .img {
+            width: 460px;
+        }
+
+        hr {
+            width: 460px;
+        }
+
+        .text1 {
+            width: 460px;
+            font-size: medium;
+        }
+
+        .text1 h6 {
+            font-size: small;
+            margin-top: 5px;
+        }
+        .contactus1 img {
+            width: 460px;
+        }
+       .chat {
+           width: 460px;
+       }
+
+       .text2 {
+           width: 460px;
+       }
+
+       .text2 h6 {
+            font-size: small;
+            margin-top: 5px;
+        }
+
+       .help {
+           width: 460px;
+       }
+
+       .help img {
+           width: 450px;
+       }
+
+       .start button {
+           width: 440px;
+       }
+
+       .start1 button {
+           width: 440px;
+       }
+
+       .help h5 {
+           width: 450px;
+       }
+
+       .help .service {
+           width: 430px;
+       }
+
+       .help .service select {
+           width: 430px;
+       }
+
+       .help .push {
+           width: 430px;
+       }
+
+       .help .push select {
+           width: 430px;
+       }
+
+       .help .app {
+           width: 430px;
+       }
+
+       .help .service select {
+           width: 430px;
+       }
+
+       .num {
+           padding-right: 1px;
+           margin-right: 2px;
+       }
+
+
+
+         
+         
+        }
+    
+      
+        
+</style>
+<body>
+    <div class="All2">
+        <div class="display">
+            <h6 class="one">Contact <span class="dignity" style="visibility: hidden;">hel</span> HB wears</h6>
+            <h6 class="three">For<span class="Habeeb" style="visibility: hidden;">he</span> your <span class="Habeeb" style="visibility: hidden;">he</span> outfits</h6>
+            
+        </div>
+       
+        <div class="All">
+           
+            <div class="img">
+               <h1>Contact us</h1>
+            </div>
+            <hr>
+    
+            <div class="text1">
+                <h6>for your safety, NEVER share your credit card details<br> with anyone. For confirmation
+                purposes, only the first 6<br> digits of your credit number will be requested.NEVER <br>share your card's 
+            expiration date or CVV number<br> as shown in the image below </h6>
+            </div>
+            <div class="contactus1">
+                <img src="contactus1.png">
+            </div>
+    
+            <div class="chat">
+                <h3>chat with us</h3>
+    
+            </div>
+            <div class="text2">
+                <h6>click <strong>help: START LIVE CHAT</strong> button on the app as shown <br>in the screenshot below if you have it on 
+                    phone mobile phone</h6>
+            </div>
+    
+            <div class="help">
+                <img src="contactus.png">
+    
+                <div class="start">
+                    <button>START LIVE CHAT</button>
+        
+                </div>
+    
+    
+                <h5>ABOUT HB WEARS</h5>
+                <div class="service">
+                    <select><option>HB wears Service</option></select>
+                    <select><option>Faq</option></select>               
+                </div>
+                
+                <h5 class="seting">SETTINGS</h5>
+                <div class="push">
+                    <select>
+                        <option>on</option>
+                        <option>off</option>
+                    </select>
+                    <select>
+                        <option>Nigeria</option>
+                        <option>USA</option>
+                        <option>Germany</option>
+                        <option>Australia</option>
+                        <option>Canada</option>
+                        <option>Sweden</option>
+                        <option>Cameroon</option>
+                        <option>Mali</option>
+                        <option>Ghana</option>
+                        <option>England</option>
+                    </select>
+    
+                    <select>
+                        <option>English</option>
+                        <option>French</option>
+                        <option>Arabic</option>
+                        <option>Italian</option>
+                        <option>Spanish</option>
+                    </select>
+                </div>
+                <h5 class="info">APP INFO</h5>
+                <div class="app">
+                    <h4>App Version 7.9.3 <span style="visibility: hidden;">hello Dignity.....</span></h4>
+                    <h4>Cache  Used: 203 kB<span style="visibility: hidden;">hello Dignity............ </span></h4>
+                   
+                    
+                </div>
+                <div class="image">
+                    <img src="contactus2.png">
+    
+                </div>
+                <div class="call">
+                    <h3 class="call1">call us</h3>
+                        <h3 style="margin-bottom:1px ;">08166489562</h3>
+                        <h3 style="margin-bottom:1px ;">Ademolawaliyu1@gmail.com</h3>
+                        <h6 style="margin-top:2px ;">Opening hours</h6>
+                        <h3 style="font-size:10px ;">monday to sunday 8:00am to 8:00pm</h3>
+                </div>
+
+                <div class="call1">
+                    <h3 class="call1" style="margin-top:25px ;">Need help placing an order?</h3>
+                        <h6>if you have difficulty placing your order, please call us on the <br> the number below</h6>
+                        <div class="start1">
+                            <button style="font-size:large;">08055603221</button>
+                
+                        </div>
+            
+                </div>
+
+                <div class="call2">
+                        <h6 style="margin-top:2px ;">Service Hours</h6>
+                        <h3 style="font-size:10px ;">monday to sunday 8:00am to 8:00pm</h3>
+                </div>
+             
+             
+    
+                
+            </div>
+           
+            
+    
+        </div>
+      
+
+    </div>
+    
+</body>
+
+<script src="service.js"></script>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignity</title>
+</head>
+<style>
+
+           
+      body {
+        padding: 0%;
+        margin: 0%;
+        background-color: lavender;
+        background-size:cover;
+        background-position: center;
+       
+    }
+        @keyframes All {
+            from{
+                opacity: 0;
+            }
+        
+            to {
+                opacity: 1;
+            }
+        }
+
+   
+
+   
+
+        .All {
+            animation: All 9s;
+            animation-duration: 10s;
+        }
+        
+        .navbar {
+            overflow: hidden;
+            background-color: darkgrey;
+            margin: 25px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 15px;
+    
+        
+        }
+
+
+        .navbar a {
+            display: inline-block;
+            padding: 10px;
+            margin-right:50px;
+            
+        }
+
+        a {
+            padding: 130px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            text-decoration: none;
+            color:black;
+            float: none;
+            display: -ms-inline-block;
+            margin: 15px;
+        }
+
+        .navbar a:hover {
+            color: blue;
+        
+            
+        }
+        h1 {
+            font-size: large;
+            text-align: center;
+            color: black;
+        }
+
+        .right {
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        .right a {
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+
+        .down {
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 5px;
+        }
+
+        .down a {
+            padding-top: 3px;
+            padding-left: 5px;
+        }
+
+
+         li:nth-of-type(1) {
+            border: 2px solid yellow;
+            text-align: center;
+            border-right-width: 10px;
+            border-left-width: 10px;
+            width: 250px;
+            padding: 10px;
+            padding-left: 25px;
+            border-style: groove;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: medium;
+            margin-bottom: 20px;
+        }
+
+
+        .shoe {
+            color: black;
+        }
+        .cloth {
+            color: blue;
+        }
+        .wrist {
+            color: darkgray;
+        }
+        h2 {
+            font-size: medium;
+            color: black;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+        @media screen and (max-width: 850px){
+          body {
+              background-position: 0px 0px;
+
+          }
+
+          .All {
+              width: 100%;
+          }
+
+          ul {
+              display:inline-block;
+              margin-left: 1px;
+          }
+
+          .wrist {
+              color: darkgray;
+          }
+          h1 {
+              text-align: center;
+              width: 110%;
+          }
+
+          h2 {
+              text-align: center;
+              width: 110%;
+          }
+
+          .navbar  {
+              
+              width: 480px;
+          }
+
+         
+         
+        }
+    
+      
+        
+
+    </style>
+</head>
+<body>
+    <div class="All">
+        <div class="navbar">
+            <a href="/fullpage">Service</a>
+            <a href="/contactuspage">Contact Us</a>
+            <a href="/logout">Logout</a>
+        </div>
+    
+        <h1>HB Wears deals with all kinds of wears such as <span class="shoe">shoes, </span><span class="cloth">clothes,</span> <br>
+        <span class="wrist">wristwatches etc</span></h1>
+        <h1>HB Wears is located at osolo way, Aswani-Oshodi Industrial Scheme, osolo, Lagos, Nigeria </h1>
+        <h2 style="margin-top:50px ;"> kindly click on the buttons below to veiw our varieties of goods :</h2>
+        <ul>
+            <div class="right">
+                <a href="/palm"><li>palm slippers</li></a>
+                <a href="/shoes"><li>sneakers</li></a>
+              
+            </div>
+                 
+            <div class="down">
+                <a href="/watches"><li>wristwatches</li></a>
+                <a href="/cloth"><li>wears</li></a>   
+            </div>
+        </ul>    
+
+    </div>
+    
+</body>
+</html>
