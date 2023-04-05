@@ -23,17 +23,7 @@ app.get('/landing', (req, res, next) => {
 
 app.get("/", function(req, res){
     res.render("landing.ejs");
-});
-
-
-
-
-
-
-
-
-
-
+})
 
 
 
