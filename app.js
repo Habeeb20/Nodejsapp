@@ -34,11 +34,6 @@ app.get("/", function(req, res){
 
 
 
-app.use((req, res, next) => {
-    const error = new error ("not available")
-    error.status = 404
-    next(error)
-});
 
 
 
